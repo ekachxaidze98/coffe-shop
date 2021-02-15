@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/0cba82bad3.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-   <div class="form-section">
-       <div class="container">
-        <div class="registration-form">
-            <form class= "sign-in" action="">
-                <label for="">First name</label>
-                <input type="text" placeholder="Name here">
-                <label for="">Last name</label>
-                <input type="text" placeholder="Last Name here">
-                <label for="">Email</label>
-                <input type="email" placeholder="Email here">
-                <label for="">password</label>
-                <input type="password" placeholder="Password here">
-                <label for="">number</label>
-                <input type="tel" placeholder="+995 ** ** **">
-                <label for="">Male</label>
-                <input type="radio">
-                <label for="">Female</label>
-                <input type="radio">
-                <label for="">other</label>
-                <input type="radio">
-                <label for="">Agree to terms and conditions</label>
-                <input type="checkbox">
-            </form>
+    <!-- menu -->
+    <div class="nav-section">
+        <div class="container">
+            <div class="nav-section__items">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">homepage</a></li>
+                        <li><a href="">news</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="">specials</a></li>
+                    </ul>
+                </nav>
+                <form class="search-form">
+                    <input class="search" type="text" placeholder="Search coffee" name="search">
+                    <button type="submit"><i class="fas fa-search fa-lg"></i></button>
+                </form>
+            </div>
         </div>
-       </div>
-   </div>
+    </div>
+    <!-- form -->
+    <div class="form-section">
+        <div class="container">
+            <div class="registration-form">
+                <form class="sign-up" action="">
+                    <label for="">First name</label>
+                    <input type="text" placeholder="Name here">
+                    <label for="">Last name</label>
+                    <input type="text" placeholder="Last Name here">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Email here">
+                    <label for="">password</label>
+                    <input type="password" placeholder="Password here">
+                    <label for="">number</label>
+                    <input type="tel" placeholder="+995 ** ** **">
+                    <input class="sign-up__btn" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="copyright-section">
+        <div class="container">
+            <div class="copyright-items">
+                <div class="authorship">
+                    Copyright © 2021 - All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

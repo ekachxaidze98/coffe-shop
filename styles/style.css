@@ -84,6 +84,7 @@
 .nav-section {
     background-color: #DBC1AC;
 }
+
 .nav-section__items {
     width: 100%;
     display: flex;
@@ -91,6 +92,7 @@
     align-items: center;
     padding: 8px 0;
 }
+
 img {
     width: 40px;
 }
@@ -98,22 +100,27 @@ img {
 nav ul {
     display: flex;
 }
+
 nav li {
     list-style-type: none;
     text-transform: capitalize;
     padding: 0 20px;
 }
+
 nav a {
     text-decoration: none;
     color: #180F0F;
     transition: color 0.35s ease-in;
 }
+
 nav a:hover {
     color: #854442;
 }
-.search-form{
+
+.search-form {
     position: relative;
 }
+
 .search {
     font-size: 14px;
     border: none;
@@ -122,8 +129,9 @@ nav a:hover {
     padding: 7px 10px;
     box-sizing: border-box;
     border-radius: 15px;
-    
+
 }
+
 button {
     outline: none;
     background-color: white;
@@ -167,14 +175,17 @@ button {
     transition: all 0.3s ease-in-out;
 
 }
+
 .button-left:hover {
     border: 1px solid #5B3739;
 }
+
 .button-left:hover .button-left-icon {
     right: 6px;
     transform: translate(-50%, -50%);
     color: #5B3739;
 }
+
 .button-right {
     position: absolute;
     top: 50%;
@@ -207,6 +218,7 @@ button {
 .slider-section__items {
     width: 100%;
 }
+
 .slider-section__item {
     width: 550px;
     position: absolute;
@@ -250,21 +262,25 @@ h1 {
 .menu-section {
     margin: 50px 0;
 }
+
 .menu-section__items {
     width: 100%;
 }
+
 h4 {
     font-size: 36px;
     color: #22405C;
     text-transform: capitalize;
 }
-.collor-switch{
+
+.collor-switch {
     color: #690C1E;
     font-size: 36px;
     font-weight: bold;
     margin: 15px 0;
     text-transform: capitalize;
 }
+
 .menu-items {
     width: 100%;
     display: flex;
@@ -272,6 +288,7 @@ h4 {
     align-items: center;
     flex-wrap: wrap;
 }
+
 .card {
     width: 32%;
     background-color: #f9f9ff;
@@ -306,7 +323,7 @@ h4 {
 }
 
 .card-body {
-   padding: 30px;
+    padding: 30px;
 }
 
 .card-title {
@@ -336,61 +353,20 @@ p {
     padding: 35px 0;
     transition: all 0.5s ease-in;
 }
-/* form */
-.form-section {
-    background-image: url("../img/gr9.jpg");
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+/* footer */
+.copyright-section {
+    background-color: #271300;
+    padding: 15px 0;
 }
-.registration-form {
+
+.copyright-items {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-.sign-in {
-    background-color: #08050560;
-    border-radius: 15px;
-    width: 50%;
-    outline: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-input{
-    padding: 5px;
-    border-radius: 10px;
-    border: none;
-}
-/* grid */
-.grid-gallery {
-    width: 100%;
-    display: grid;
-    grid-gap: 15px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 325px 325px 120px;
-    margin: 0 auto;
-}
-.grid-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-}
-.overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-    font-size: 40px;
-}
-.grid-gallery .grid-img:nth-child(2){
-    grid-column: auto / span 2;
-}
-.grid-gallery .grid-img:nth-child(3){
-    grid-column: auto / span 2;
-    grid-row: auto / span 2;
+
+.authorship {
+    font-size: 12px;
+    color: #666666;
 }

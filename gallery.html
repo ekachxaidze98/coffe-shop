@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/gallery.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0cba82bad3.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <section class="gallery">
+    <!-- menu -->
+    <div class="nav-section">
         <div class="container">
-            <div class="grid-gallery">
-            <img class="grid-img" src="./img/gr1.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr2.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr3.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr4.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr5.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr6.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr7.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr8.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr9.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr10.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr11.jpg" alt="">
-            <p class="overlay">pencacke</p>
-            <img class="grid-img" src="./img/gr12.jpg" alt="">
-            <p class="overlay">pencacke</p>
+            <div class="nav-section__items">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">homepage</a></li>
+                        <li><a href="">news</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="">specials</a></li>
+                    </ul>
+                </nav>
+                <form class="search-form">
+                    <input class="search" type="text" placeholder="Search coffee" name="search">
+                    <button type="submit"><i class="fas fa-search fa-lg"></i></button>
+                </form>
+            </div>
         </div>
     </div>
+    <!-- gallery -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="gallery-title">our delights</h2>
+            <div class="grid-gallery">
+                <div class="grid-gallery__img img-span1">
+                    <img class="grid-img" src="./img/gr1.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span2">
+                    <img class="grid-img" src="./img/gr2.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span3">
+                    <img class="grid-img" src="./img/gr3.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span4">
+                    <img class="grid-img" src="./img/gr4.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span5">
+                    <img class="grid-img" src="./img/gr5.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span6">
+                    <img class="grid-img" src="./img/gr6.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span7">
+                    <img class="grid-img" src="./img/gr7.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span8">
+                    <img class="grid-img" src="./img/gr8.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span9">
+                    <img class="grid-img" src="./img/gr9.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span10">
+                    <img class="grid-img" src="./img/gr10.jpg" alt="">
+                </div>
+                <div class="grid-gallery__img img-span11">
+                    <img class="grid-img" src="./img/gr11.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- footer -->
+    <footer class="copyright-section">
+        <div class="container">
+            <div class="copyright-items">
+                <div class="authorship">
+                    Copyright © 2021 - All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

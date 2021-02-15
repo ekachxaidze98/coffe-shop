@@ -1,0 +1,46 @@
+
+/* form */
+.form-section {
+    background-image: url("../img/gr9.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+}
+
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-up {
+    background-color: #08050560;
+    border-radius: 15px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+}
+
+.sign-up__btn {
+    display: block;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #d88153;
+    padding: 8px 20px;
+}
